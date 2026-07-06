@@ -52,8 +52,8 @@ button, input, textarea, select { font: inherit; }
 }
 .brand-mark { width: 48px; height: 48px; border-radius: 14px; display: grid; place-items: center; background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--gold); box-shadow: var(--shadow); }
 .nav-links { display: flex; align-items: center; gap: 1.2rem; }
-.nav-links a { color: rgba(255,255,255,0.92); font-weight: 600; padding: 0.4rem 0.6rem; position: relative; }
-.nav-links a::after { content: ""; position: absolute; left: 0.6rem; right: 0.6rem; bottom: -2px; height: 2px; background: var(--gold); transform: scaleX(0); transform-origin: left; transition: transform .25s ease; }
+.nav-links a { color: var(--gold); font-weight: 600; padding: 0.4rem 0.6rem; position: relative; }
+.nav-links a::after { content: ""; position: absolute; left: 0.6rem; right: 0.6rem; bottom: -2px; height: 2px; background: rgba(255,255,255,0.08); transform: scaleX(0); transform-origin: left; transition: transform .25s ease; }
 .nav-links a:hover::after, .nav-links a.active::after { transform: scaleX(1); }
 .nav-toggle { display: none; background: transparent; border: none; color: rgba(255,255,255,0.92); font-size: 1.35rem; }
 
